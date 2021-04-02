@@ -12,7 +12,8 @@ You can edit the "sensors" list to include PurpleAir sensors you want, currently
 To find PurpleAir API IDs and read keys from map:
 - go to the map at https://www.purpleair.com/map
 - Hover over "Get this widget" and click on "JSON"
-- [image](https://user-images.githubusercontent.com/81830321/113453656-eaf02300-93b2-11eb-8fe8-e9d638801bb1.png)
+- <img width="292" src="https://user-images.githubusercontent.com/81830321/113453656-eaf02300-93b2-11eb-8fe8-e9d638801bb1.png">
 - Thingspeak API IDs and read keys are found here 
-- [image](https://user-images.githubusercontent.com/81830321/113453921-81bcdf80-93b3-11eb-9fbe-d74141a24818.png)
+- <img width="292" src="https://user-images.githubusercontent.com/81830321/113453921-81bcdf80-93b3-11eb-9fbe-d74141a24818.png">
+
 
