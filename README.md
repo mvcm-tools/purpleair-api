@@ -15,5 +15,5 @@ To find PurpleAir API IDs and read keys from map:
 - <img width="292" src="https://user-images.githubusercontent.com/81830321/113453656-eaf02300-93b2-11eb-8fe8-e9d638801bb1.png">
 - Thingspeak API IDs and read keys are found here 
 - <img width="292" src="https://user-images.githubusercontent.com/81830321/113453921-81bcdf80-93b3-11eb-9fbe-d74141a24818.png">
-
+- The "primary" IDs and read keys are where PM2.5 data in microgram/m3 is found 
 
