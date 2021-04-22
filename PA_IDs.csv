@@ -1,0 +1,15 @@
+PA_label,PA_column_name,PA_nickname,PA_ID,PA_MAC,PA_API_ID_A,PA_API_key_A,PA_API_ID_B,PA_API_key_B,notes,owner,outdoor
+CTC Building,CTC_pa_roof_pm2_5_atm,CTC roof,26415,,697980,WTITHS0ZRT6G293L,697982,4VFPCHW3QNXO2J67,At NCORE or on CTC roof,Tjarda,outdoor
+CTC Trailer #1,CTC_pa_ground_pm2_5_atm,CTC ground,39603,,874052,29H8UGV23MSYTI9W,874054,LW43AJKBUZR7TE5J,At NCORE or on CTC trailer (ground level),Jingqiu,outdoor
+RAMS-e530,pa_e530_lvl1_pm2_5_atm,RAMS L1 (3m),39437,,872114,OCRK8BNKBJL92NOX,872116,PBWRBKY00X7EDUGE,Usually on RAMS-trailer tower,Jingqiu,outdoor
+RAMS-7a6c,pa_7a6c_lvl2_pm2_5_atm,RAMS L2 (6m),39545,,873152,MUGUNCMC43IWEU66,873155,NG4R4VN01NOGQN1F,Usually on RAMS-trailer tower,Jingqiu,outdoor
+RAMS-e3a5,pa_e3a5_lvl3_pm2_5_atm,RAMS L3 (9m),39369,,871129,PZRQP9GYFMKM8SBG,871131,EW6PW2IZHN0SZQLO,Usually on RAMS-trailer tower,Jingqiu,outdoor
+RAMS-e4b7,pa_e4b7_lvl4_pm2_5_atm,RAMS L4 (11m),39449,,872138,GJ3AHFZTM26MLP0O,872141,ACO9N6LSZ7NFJKGT,Usually on RAMS-trailer tower,Jingqiu,outdoor
+NCORE#3,NCORE3_pa_pm2_5_atm,NCORE 3,39503,,873031,71ULQ63TQKG2ELW7,873033,AZTSCXJRZJN5BFND,At NCORE or on CTC roof,Tjarda,outdoor
+NCORE#4,NCORE4_pa_pm2_5_atm,NCORE 4,39501,,873027,GF0WBYEO5FCP281N,873029,05J64WSWPR0EBE7M,At NCORE,Private owner (maybe ADEC),outdoor
+NCore 4,NCORE4-2_pa_pm2_5_atm,NCORE 4 #2,16315,,583421,7R04SXXFCMA698ZS,583425,3G49SNHIGWCTQDU6,At NCORE,Private owner (maybe ADEC),outdoor
+ADEC #1,NCORE-ADEC1_pa_pm2_5_atm,NCORE ADEC 1,24691,,677633,504V26DA09IG9XZA,677635,SN2MPVF1GWGPPZK5,At NCORE,ADEC,outdoor
+Piper St. ,Piper_St_pa_pm2_5_atm,Piper St,34855,,825703,45AHOQBQQ6AGUCK9,825705,YAWP002CMM484TO9,West (~5 km) of Hurst Rd ADEC site in North Pole,Private owner,outdoor
+Hurst Road,Hurst_Rd_pa_pm2_5_atm,Hurst Rd,24641,,677532,NHNOM99Q79QF88LF,677534,D1JUJO3F5J9GPR4M,At the Hurst Rd ADEC site in North Pole,ADEC,outdoor
+North Pole - Plack & Nelson,Plack_Nelson_pa_pm2_5_atm,Plack and Nelson,36305,,838364,U4PFKX3FL2EQ16RS,838366,JWT37LT6P41D9KP6,Northeast (~5 km) of the Hurst Rd ADEC site in North Pole,Private owner,outdoor
+1051 Dakota St. North Pole AK,Dakota_St_pa_pm2_5_atm,Dakota Street,23943,,666143,60Y5XO9D22MD7GFR,666145,GUNMVHOQL7IE7L29,Northwest (~10 km) of the Hurst Rd ADEC site in North Pole,Private owner,outdoor
