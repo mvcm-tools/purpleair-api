@@ -1,6 +1,5 @@
-
 # python script to pull 10-min data from PurpleAir website using their API
-# updated version of "pa-api-pulldata.py" with updated user configuration
+# updated version of "purpleair-api-pulldata.py" with updated user configuration
 # based on code from https://blocks.roadtolarissa.com/ekerstein/56757f993a7a8d17eabbca5a8562f5cc
 # modified data output for cleaner output file
 
