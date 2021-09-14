@@ -1,9 +1,7 @@
 # pa-api-pulldata-v2.py
 Python script using the PurpleAir API to download sensor PM2.5 data.
 
-Updated version of "purpleair-api-pulldata.py" with simpler user input. Instead of the user having to look up the API ID's and read keys from the PurpleAir website, this version pulls these values from the "PA_IDs.csv" file. Users can change line 27 of this script to specify which PAs to pull data from, the default will pull data from all PAs in the CSV.
-
-Usage now uses a "start" and "end" date input rather than a "days from" input:
+Updated version of "purpleair-api-pulldata.py" with simpler user input. Instead of the user having to look up the API ID's and read keys from the PurpleAir website, this version pulls these values from a specified CSV file.
 
 <b> ./purpleair-api-pulldata-v2.py startdate enddate ids.csv </b>
 
