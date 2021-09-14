@@ -5,7 +5,7 @@ Updated version of "purpleair-api-pulldata.py" with simpler user input. Instead 
 
 Usage now uses a "start" and "end" date input rather than a "days from" input:
 
-./purpleair-api-pulldata-v2.py startdate enddate ids.csv
+<b> ./purpleair-api-pulldata-v2.py startdate enddate ids.csv </b>
 
 startdate and enddate should be input in YYYY-MM-DD HH:MM:SS format
 
