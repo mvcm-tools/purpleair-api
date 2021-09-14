@@ -5,9 +5,13 @@ Updated version of "purpleair-api-pulldata.py" with simpler user input. Instead 
 
 Usage now uses a "start" and "end" date input rather than a "days from" input:
 
-./purpleair-api-pulldata-v2.py startdate enddate
+./purpleair-api-pulldata-v2.py startdate enddate ids.csv
 
 startdate and enddate should be input in YYYY-MM-DD HH:MM:SS format
+
+ids.csv should be a CSV file containing the following columns: "PA_API_ID_A"	"PA_API_key_A"	"PA_API_ID_B"	"PA_API_key_B"	"PA_column_name" (see PA_IDs.csv for example)
+
+suffixes "_a_ugm3" and "_b_ugm3" added to the "PA_column_name" column gives the A and B sensor column names, so don't include "ugm3" in "PA_column_name"
 
 Note that the amount of data that can be download at once from this script is limited. If you are not getting the full date range of data needed, try downloading in smaller increments. Weekly increments seem to work well.
 
