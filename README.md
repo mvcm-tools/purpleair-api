@@ -32,3 +32,8 @@ To find PurpleAir API IDs and read keys from map:
 - <img width="292" src="https://user-images.githubusercontent.com/81830321/113453921-81bcdf80-93b3-11eb-9fbe-d74141a24818.png">
 - The "primary" IDs and read keys are where PM2.5 data in microgram/m3 is found 
 
+- Can also look up in browser: https://www.purpleair.com/json?key=API-KEY&show=PA-ID
+- where "API-KEY" is the PA API Key and "PA-ID" is the 5-digit PA ID #
+
+
+
