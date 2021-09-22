@@ -1,5 +1,5 @@
 # pa-api-pulldata.py
-Python script using the PurpleAir API to download sensor PM2.5 data. This version pulls PA API ID and read key values from an input CSV file (use the PA_IDs.csv file as a template).
+Python script using the PurpleAir API to download sensor PM2.5 data. This version pulls PA API ID and read key values from an input CSV file.
 
 <b>How to find PA API information for data downloader:</b>
 
@@ -20,7 +20,7 @@ You should see a page that looks like this (note a different sensor ID shown her
 <img width="292" src="https://user-images.githubusercontent.com/81830321/113453921-81bcdf80-93b3-11eb-9fbe-d74141a24818.png"> <br></br>
 
 
-<b>3.</b> Make a CSV file with the following columns names, fill in information for PAs:
+<b>3.</b> Make a CSV file with the following columns names, fill in information for PAs (use the PA_IDs.csv file as a template):
 
 <b>PA_API_ID_A</b> = First instance of "THINGSPEAK_PRIMARY_ID” on page from step 2.
 
