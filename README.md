@@ -1,4 +1,4 @@
-# pa-api-pulldata-v2.py
+# pa-api-pulldata.py
 Python script using the PurpleAir API to download sensor PM2.5 data. This version pulls PA API ID and read key values from an input CSV file (use the PA_IDs.csv file as a template).
 
 <b>How to find PA API information for data downloader:</b>
