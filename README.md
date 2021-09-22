@@ -1,15 +1,40 @@
 # pa-api-pulldata-v2.py
-Python script using the PurpleAir API to download sensor PM2.5 data.
+Python script using the PurpleAir API to download sensor PM2.5 data. This version pulls PA API ID and read key values from an input CSV file (use the PA_IDs.csv file as a template).
 
-Updated version of "purpleair-api-pulldata.py" with simpler user input. Instead of the user having to look up the API ID's and read keys from the PurpleAir website, this version pulls these values from a specified CSV file.
+<b>How to find PA API information for data downloader:</b>
 
-<b> ./purpleair-api-pulldata-v2.py startdate enddate ids.csv </b>
+<b>1.</b> Hover over “Get this widget” after clicking on a PurpleAir sensor on the map. Copy the HTML that pops up to find the sensor ID and API read key in the script tag. Here is an example with a random sensor in Bel Air, CA:
 
-startdate and enddate should be input in YYYY-MM-DD HH:MM:SS format
+<script src=‘https://www.purpleair.com/pa.widget.js?key=<b>YLV2RFZLX93DRHY3</b>&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_<b>78091</b>_module_AQI_conversion_C0_average_10_layer_standard'></script>
+<br></br>
+- “key=<b>YLV2RFZLX93DRHY3</b>” - PA API read key for the A sensor
+- “PurpleAirWidget_<b>78091</b>” - PA ID (this 5 digit ID is not the same as the API IDs for A and B sensors)
 
-ids.csv should be a CSV file containing the following columns: "PA_API_ID_A"	"PA_API_key_A"	"PA_API_ID_B"	"PA_API_key_B"	"PA_column_name" (see PA_IDs.csv for example)
 
-suffixes "_a_ugm3" and "_b_ugm3" added to the "PA_column_name" column gives the A and B sensor column names, so don't include "ugm3" in "PA_column_name"
+<b>2.</b> Use this URL format to find the Thingspeak API IDs and read keys needed for PA_IDS.csv file:
+
+https://www.purpleair.com/json?key=<b>YLV2RFZLX93DRHY3</b>&show=<b>78091</b>
+
+
+<b>3.</b> Make a CSV file with the following columns names, fill in information for PAs:
+
+PA_API_ID_A = First instance of "THINGSPEAK_PRIMARY_ID” on page from step 2.
+
+PA_API_key_A  = First instance of "THINGSPEAK_PRIMARY_ID_READ_KEY" on page from step 2
+
+PA_API_ID_B = First instance of "THINGSPEAK_PRIMARY_ID” on page from step 2. 
+
+PA_API_key_B  = First instance of "THINGSPEAK_PRIMARY_ID_READ_KEY" on page from step 2
+
+PA_column_name = desired column name for output file, leave off units, they will be added along with the a and b designations (ie. _a_ugm3 added)
+
+
+<b>4.</b> Run python script:
+
+./pa-api-pulldata-v2.py startdate enddate input.csv 
+
+Where start date and enddate are in YYYY-MM-DD HH:MM:SS format.
+
 
 Note that the amount of data that can be download at once from this script is limited. If you are not getting the full date range of data needed, try downloading in smaller increments. Weekly increments seem to work well.
 
