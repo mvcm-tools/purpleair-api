@@ -35,11 +35,13 @@ You should see a page that looks like this (note a different sensor ID shown her
 
 <b>4.</b> Run python script:
 
-./pa-api-pulldata.py startdate enddate input.csv 
+python3 pa-api-download.py file_with_pa_ids start_date start_time end_date end_time
 
-Where start date and enddate are in YYYY-MM-DD HH:MM:SS format. For example:
+Where start_date and end_date are in YYYY-mm-DD format with leading zeroes / start_time and end_time are in HH:MM:SS format (in UTC time). 
 
-./pa-api-pulldata.py 2021-09-09 00:00:00 2021-09-10 00:00:00 PA_IDs.csv 
+For example:
+
+python3 pa-api-download.py PA_IDs.csv 2021-09-09 00:00:00 2021-09-10 00:00:00
 
 Note that the amount of data that can be download at once from this script is limited. If you are not getting the full date range of data needed, try downloading in smaller increments. Weekly increments seem to work well.
 
