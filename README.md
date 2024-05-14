@@ -1,4 +1,7 @@
 # pa-api-pulldata.py
+
+UPDATE 2024-05-14: PurpleAir now charges $$$ for API access. I don't think they utilize Thingspeak anymore either. Unfortunate...
+
 Python script using the PurpleAir API to download sensor PM2.5 data. This version pulls PA API ID and read key values from an input CSV file.
 
 <b>How to find PA API information for data downloader:</b>
